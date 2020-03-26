@@ -1,7 +1,7 @@
 # One Pager Tutorial
 
 This is a tutorial on how to build a simple one pager website using vanilla html css and javascript.
-
+<h2>Part One</h2>
 1. Setup a new repository - remote and local
 
 2. Open in VS Code
@@ -18,7 +18,8 @@ This is a tutorial on how to build a simple one pager website using vanilla html
 - create links to your css file
 - choose a license from choosealicense.com and insert to LICENSE file
 
-7. HTML Structure
+<h2>Part 2</h2>
+1. HTML Structure
 
 - create a new branch called HTML
 - introduce your html structure for each section
@@ -32,7 +33,7 @@ This is a tutorial on how to build a simple one pager website using vanilla html
 </body>
 ```
 
-8. Then foucs on the sections within
+1. Then foucs on the sections within
 
 ```
 <section id="banner">
@@ -44,5 +45,54 @@ This is a tutorial on how to build a simple one pager website using vanilla html
 </section>
 ```
 
-9. Create a banner, about, elements, showcare, and contact section
-10. Create div classes for each section
+1. Create a banner, about, elements, showcare, and contact section
+1. Create div classes for each section
+
+<h2>Part 3</h2>
+
+1. Create your styling
+2. Normalize overall styling
+```
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+```
+3. Create a color theme
+```
+:root {
+  --theme-color-primary: #5b88b4;
+  --text-color-primary: rgb(8, 8, 8);
+  --text-color-medium: rgb(131, 130, 129);
+  --text-color-light: rgb(250, 248, 248);
+  --bg-color-light: rgb(252, 245, 245);
+  --bg-color-secondary: rgb(242, 245, 246);
+  --bg-color-dark: rgb(58, 56, 56);
+}
+```
+4. Works on the body, headings, and paragraphs
+5. Style your links
+6. Style your buttons
+7. Style your sections
+
+<h2>Part 4</h2>
+1. Work on your navigation bar
+
+```
+<nav>
+  <div class="navigation-logo"><i class="fas fa-adjust"></i></div>
+  <div class="navigation-menu-desktop">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#elements">Elements</a></li>
+      <li><a href="#showcase">Showcase</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+```
+
+
