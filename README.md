@@ -95,4 +95,35 @@ This is a tutorial on how to build a simple one pager website using vanilla html
 </nav>
 ```
 
+<h2>Part 5</h2>
+1. Work on the responsive layout
 
+```
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+```
+2. Get rid of the navigation bar at a specific width
+
+```
+@media (max-width: 600px) {
+  .navigation-menu-desktop {
+    display: none;
+  }
+}
+```
+3. Specify the split font-size
+4. Make the footer {flex-wrap; wrap}
+
+<h2>Part 6</h2>

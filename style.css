@@ -186,18 +186,50 @@ nav {
 .navigation-menu-desktop li {
   display: inline;
 }
-
 .navigation-menu-desktop li:not(:first-child) {
   margin-left: 2rem;
 }
 nav a {
   color: var(--text-color-primary);
 }
-
 nav a:hover {
   color: var(--theme-color-primary);
   text-decoration: none;
 }
 html {
   scroll-behavior: smooth;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .navigation-menu-desktop {
+    display: none;
+  }
+}
+@media (max-width: 860px) {
+  .split {
+    flex-wrap: wrap;
+  }
+  .split-media,
+  .split-text {
+    width: 100%;
+  }
+  .split-media {
+    margin-bottom: 2rem;
+  }
+}
+.footer-inner-container {
+  flex-wrap: wrap;
 }
